@@ -1,0 +1,10 @@
+apt-get update
+apt-get upgrade
+
+apt-get install sudo mailutils net-tools dnsutils ssmtp iptables-persistent apache2 mysql-server mysql-client phpmyadmin
+apt-get install apt-transport-https ca-certificates curl software-properties-common
+
+sudo usermod -a -G sudo judumay
+
+judumay ALL=(ALL:ALL) NOPASSWD:ALL
+judumay ALL=(ALL:ALL)
