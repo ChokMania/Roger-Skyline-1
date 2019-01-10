@@ -5,7 +5,7 @@
     //information de connexion à la base de données
     $host = "localhost"; //adresse du serveur MySQL;
     $user = "root"; //nom d'utilisateur
-	$password = ""; //mot de passe
+	$password = "root"; //mot de passe
 	$database = "espace_membre"; //nom de la base de données
 	
 	//connexion au serveur MySQL
