@@ -34,7 +34,7 @@
 								if(!isset($_SESSION['id']) || !isset($_SESSION['pseudo'])){
 									//l'utilisateur n'est pas connecté
 									echo '<p>Vous n\'êtes pas encore connecté
-											<a class = "btn btn-sm btn-primary" href = "connexion.php"><i class = "glyphicon glyphicon-off"></i> Connexion</a> ou
+											<a class = "btn btn-sm btn-primary" href = "connexion.php"><i class = "glyphicon glyphicon-off"></i> Connexion TQT</a> ou
 											<a class = "btn btn-sm btn-success" href = "inscription.php"><i class = "glyphicon glyphicon-user"></i> Créer votre compte</a>
 											</p>';
 								}
